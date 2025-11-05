@@ -4,7 +4,6 @@ Python Loops PPT:
 https://docs.google.com/presentation/d/1cRZd43s_xyNBLZ6vgFiUILPUMMtWDtBO/edit?usp=sharing&ouid=118175980541210638913&rtpof=true&sd=true
 
 
-
 ---
 
 ## Exercise 1
@@ -33,7 +32,7 @@ Print “I Love Python” 10 times.
 
 **Problem:**
 
-Find the sum of the first n numbers from 1.
+Find and return the sum of the first n numbers from 1.
 
 **Example:**
 
@@ -53,37 +52,33 @@ Find the sum of the first n numbers from 1.
 
 **Problem:**
 
-Find sum of digits from number.
+Find and return how many numbers between 1 and 100 are divisible by 7.
 
 **Example**
 
- 	Input: 125
-  	Output: 8
- 
-  	Input: 5
-  	Output: 5
- 
-  	Input: 1234
-  	Output: 10
+	Output: 14
+
 ---
 
 ## Exercise 4
 
 **Problem:**
 
-Find how many digits number have.
+Print cubes of numbers 1–10.
 
 **Example**
 
-	Input: 123
-	Output: 3
- 
-	Input: 9
-	Output: 1
- 
-	Input: 56741
-	Output: 5
-
+	Output:
+	1
+	8
+	27
+	64
+	125
+	216
+	343
+	512
+	729
+	1000
 
 ---
 
