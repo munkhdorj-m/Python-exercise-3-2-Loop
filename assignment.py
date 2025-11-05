@@ -1,26 +1,37 @@
-# You can remove 'pass' if you written code in the function 
-
 # Exercise 1
 def print_love_python():
-    # Write your code here
-    pass
+    for i in range(10):
+        print("I Love Python")
+
 
 # Exercise 2
 def sum_of_n_numbers(n):
-    # Write your code here
-    pass
+    total = 0
+    for i in range(1, n + 1):
+        total += i
+    return total
+
 
 # Exercise 3
-def sum_of_digits(number):
-    # Write your code here
-    pass
+def count_divisible_by_7():
+    count = 0
+    for i in range(1, 101):
+        if i % 7 == 0:
+            count += 1
+    return count
+
 
 # Exercise 4
-def count_digits(number):
-    # Write your code here
-    pass
+def print_cubes():
+    for i in range(1, 11):
+        print(i ** 3)
+
 
 # Exercise 5
 def print_from_five_to(n):
-    # Write your code here
-    pass
+    if n >= 5:
+        for i in range(5, n + 1):
+            print(i)
+    else:
+        for i in range(5, n - 1, -1):
+            print(i)
